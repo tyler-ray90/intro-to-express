@@ -9,16 +9,24 @@ src="https://code.jquery.com/jquery-3.3.1.min.js"
 integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 crossorigin="anonymous"></script>
     <script src="./js/script.js" defer></script>
+    <script src="./css/style.css"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
+<body id="bodies">
     <h2>MY DEVELOPER SKILLS</h2>
-    <ul>
-        <ol>Adding Comedic Value</ol>
-        <ol>Please Hire Me</ol>
-    </ul>
-    <button id="skill" class="btn btn-danger">ADD SKILL</button>
-    <button class="btn btn-xs btn-danger">Remove</button>
+
+
+    <div class="container">
+    <input id="text1" placeholder="Type Here">
+    <button onclick="addItem()" id="skill" class="btn btn-danger">Add Skill</button>
+    <button onclick="removeItem()" class="btn btn-xs btn-danger">Remove</button>
+    </div>
+
+    <div>
+        <ul id="dynamic-list">   
+            <li>asdg</li>
+        </ul>
+    </div
 </body>
 </html>

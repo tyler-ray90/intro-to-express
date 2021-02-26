@@ -1,2 +1,3 @@
+$('#skill').removeClass('btn-danger').addClass('btn-success');
 
-console.log("hello")
+$("#dynamic-list").append(`<li></li>`);
